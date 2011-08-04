@@ -1,0 +1,32 @@
+jackwizard from the skype forums wrote this script, not me. I'm
+archiving it here because it's useful and Skype's forums aren't
+permanent.
+
+http://forum.skype.com/index.php?showtopic=332401
+
+Here's his original readme:
+
+    This script will let you run only one instance of skype,
+    rather than opening a new one every time you click the launcher.
+
+    If you've tried to use skype with Gnome-Do you've probably noticed
+    that there's no way to bring the skype window back up from Do
+    after it's gone to the system tray. This script fixes that quite
+    nicely.
+
+    [rant] Why would skype make multi-instance the default??? Doesn't
+    make any sense to me, since the normal user expects to get back to
+    the running instance when they click the launcher again... [/rant]
+
+    Just download this script, extract it, and put it somewhere on
+    your PATH. If you don't know what that means, then just extract it
+    to the Desktop and use this command in the terminal:
+
+    sudo cp ~/Desktop/skype-single-instance /usr/local/bin/
+
+    Then you can change your launcher properties to use the
+    skype-single-instance command instead of the normal skype command.
+    If you're using Gnome-Do: for some reason it doesn't read off of
+    the main menu entries... just type the extra 's' (that is, type
+    'skypes' instead of just 'skype'), and that should bring up
+    skype-single-instance.
